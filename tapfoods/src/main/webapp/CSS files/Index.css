@@ -1,0 +1,281 @@
+body{
+background-color: white;
+
+}
+nav {
+	font-family: Fantasy; 
+	margin-top : 30px;
+	width: 100%;
+	height: 60px;
+	border-radius: 20px;
+	border:0.1px solid rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	background-color:rgba(217, 217, 217, 1);
+}
+section{
+border-radius:20px;
+margin:0.5% 0% 0% 0%;
+height:100vw;
+width:100%;
+background-color:rgba(217, 217, 217, 1);
+}
+
+.logo {
+	
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 2px;
+	background-size: cover;
+}
+
+.logo img {
+   mix-blend-mode:multiply;
+	height: 60px;
+	width: 50px;
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	margin-right: 25px;
+	margin-top: 13px;
+}
+
+a {
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	text-shadow: 1px 1px 2px gray;
+}
+
+ul li {
+	font-size: 25px;
+	color: black;
+	text-shadow: 1px 1px 2px gray;
+	cursor: pointer;
+}
+
+ul li:hover {
+	color: rgba(255, 140, 0, 0.8);
+}
+
+a:hover {
+	color: #fca311;
+}
+
+.showbox{
+height:25vw;
+width:95%;
+background-color:white;
+margin:0.1% 0% 0% 1.9%;
+position: absolute;;
+border-radius:0px 0px 30px 30px;
+overflow: hidden;
+border:0.1px solid rgba(0,0,0,0.6);
+
+
+}
+.text1{
+margin:5% 0% 0% 15%;
+color:black;
+font-size: 300%;
+position: absolute;
+}
+.text2{
+margin:5% 0% 0% 65%;
+color:black;
+font-size: 300%;
+position: absolute;
+}
+.image1 img{
+border:1px solid black ;
+height:200px;
+width:200px;
+position: absolute;
+}
+
+
+
+.blur {
+	filter: blur(5px);
+	transition: filter 0.2s ease;
+}
+
+#overlay {
+	height: 600px;
+	width: 100%;
+	position: fixed;
+	display: none;
+	z-index: 999;
+}
+
+.close-icon {
+	color: black;
+	font-size: 20px;
+	background-color: white;
+	width: 20px;
+	border-radius: 50%;
+	margin: 2.5% 0% 0% 65% !important ;
+	position: fixed;
+	cursor: pointer;
+	position: absolute;
+	margin: 2.4% 0% 0% 64%;
+	border-radius: 50%;
+	width: 20px;
+	background-color: white;
+	font-size: 20px;
+}
+
+.close-icon:hover {
+	font-size: 21px;
+}
+
+#signup-box {
+	position: absolute;
+	z-index: 1000;
+	height: 500px;
+	width: 400px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	margin: -305% 0px 0px 35%;
+	background-color: white;
+	box-shadow: 2px 2px 3px 3px gray;
+	transition: opacity 0.5s ease;
+}
+
+.form {
+	margin-top: -50px;
+}
+
+.signup h1 {
+	font-size: 40px;
+	text-decoration: underline;
+	text-decoration-color: #fca311;
+}
+
+.inputbox1, .inputbox2, .inputbox3, .inputbox4, .inputbox5 {
+	width: 256px;
+	border-bottom: 2px solid;
+	padding-top: 20px;
+	display: flex;
+	cursor: text;
+}
+
+#name {
+	text-transform: capitalize;
+}
+
+.inputbox1 input, .inputbox2 input, .inputbox3 input, .inputbox4 input,
+	.inputbox5 input {
+	width: 90%;
+	height: 27px;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 15px;
+	cursor: text;
+}
+
+.inputbox1 label, .inputbox2 label, .inputbox3 label, .inputbox4 label,
+	.inputbox5 label {
+	position: absolute;
+	padding-top: 10px;
+	color: #fca311;
+	font-weight: 900;
+	cursor: text;
+	transition: font-size 0.5s ease;
+}
+
+.inputbox1 input:focus ~label, .inputbox1 input:valid ~label {
+	top: 105px;
+	font-size: 13px;
+	transition: font-size 0.2s ease;
+}
+
+.inputbox2 input:focus ~label, .inputbox2 input:valid ~label {
+	top: 155px;
+	font-size: 13px;
+	transition: font-size 0.2s ease;
+}
+
+.inputbox3 input:focus ~label, .inputbox3 input:valid ~label {
+	top: 205px;
+	font-size: 13px;
+	transition: font-size 0.2s ease;
+}
+
+.inputbox4 input:focus ~label, .inputbox4 input:valid ~label {
+	top: 255px;
+	font-size: 13px;
+	transition: font-size 0.2s ease;
+}
+
+.inputbox5 input:focus ~label, .inputbox5 input:valid ~label {
+	top: 305px;
+	font-size: 13px;
+	transition: font-size 0.2s ease;
+}
+
+.inputbox5 img {
+	padding-right: 2px;
+	height: 23px !important;
+	cursor: pointer;
+}
+
+.submit {
+	padding-top: 24px;
+	padding-left: 197px;
+}
+
+.submit input {
+	font-size: 15px;
+	padding: 4px;
+	background-color: #fca311;
+	border-radius: 10px 2px;
+}
+
+.submit input:hover {
+	font-size: 13px;
+	background-color: white;
+	border-radius: 10px 2px;
+}
+
+.login a {
+	text-decoration: none;
+	color: #fca311;
+	padding-left: 10px;
+	font-size: 17.5px;
+}
+
+.login a:hover {
+	font-size: 17px;
+}
+
+span {
+	color: red;
+}
+
+.em {
+	position: absolute;
+	color: red;
+	font-size: 14px;
+	margin: 27% 0% 0% -3%;
+}
+footer{
+height:35vw;
+width:100%;
+background-color: rgba(0,0,0,0.8);
+border-radius:20px;
+margin: -1.5% 0% 0% 0%;
+}
+footer h1{
+color:white;
+padding-left:10px;
+}

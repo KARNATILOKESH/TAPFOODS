@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.box{
+display: grid;
+	margin-left:24px;
+	margin-top: 4.7%;
+	height:500px;
+	width:97%;
+	
+	}
+	
+.itemdetails {
+	height: 430px;
+	width: 48%;
+	margin: 0% 0% 0% 25%;
+	border-radius: 20px 20px 0px 0px;
+	box-shadow: 1px 1px 2px 2px gray;
+	overflow-y: scroll;
+}
+.itemdetails::-webkit-scrollbar{
+      display: none;
+}
+.itembox {
+	
+	height: 50px;
+	width: 600px;
+	margin: 5% 0% 0% 2.5%;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;;
+}
+
+.itemName {
+font-size: 18px;
+	align-content: center;
+	padding-left:20px;
+	height: 40px;
+	width: 300px;
+	box-shadow:1px 1px 1px 1px gray;
+    border:1px solid;
+	border-radius: 19px;
+	overflow-x: scroll;
+	
+}
+.itemName::-webkit-scrollbar{
+      display: none;
+}
+.price{
+
+font-size: 20px;
+	align-content: center;
+	padding-left:10px;
+ height: 40px;
+	width: 80px;
+	border: 1px solid;
+		box-shadow:1px 1px 1px 1px gray;
+	
+	border-radius: 19px
+	
+}
+
+.add{
+  display:flex;
+	align-items:center;
+	padding-left:20px;
+	gap:10px;
+height: 40px;
+	width: 120px;
+	border: 1px solid;
+		box-shadow:1px 1px 1px 1px gray;
+	
+	border-radius: 19px
+
+}
+.delete{
+margin:-13px 0px 0px 0px;
+font-size: 60px;
+ cursor:pointer;
+}
+
+.delete a {
+text-decoration: none;
+color:red;
+}
+.delete :hover{
+  font-size: 55px;
+}
+
+.update{
+
+margin:0px 0px 0px 3px;
+font-size: 40px;
+color:green;
+  cursor:pointer;
+}
+.update a {
+text-decoration: none;
+color:green;
+}
+.update:hover{
+ font-size: 45px;
+}
+.text{
+margin:0px 0px 0px 0px;
+font-size: 20px;
+color:black;
+width:40px;
+
+}
+.text b{
+margin-left: 10px;
+}
+.buttons{
+border-radius: 0px 0px 20px 20px;
+margin-left:25%;
+box-shadow:1px 1px 1px 2px gray;
+height:70px;
+width:48%;
+display: flex;
+justify-content: space-between;;
+}
+.addmore, .proceed{
+border:1px solid;
+height: 30px;
+width: 220px;
+background-color:orange;
+margin-top: 3%;
+border-radius: 12px;
+display:flex;
+justify-content: center;
+align-items: center;
+ cursor:pointer;
+}
+.addmore{
+margin-left:27px;
+}
+.proceed{
+margin-right:27px;
+}
+
+.addmore:hover
+{
+  font-size:14.2px;
+  
+}
+.proceed:hover
+{
+ font-size:14.2px;
+}
